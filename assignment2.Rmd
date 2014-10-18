@@ -19,7 +19,7 @@ bibliography:
 
 # Introduction
 
-Will be using R for this project
+Will be using R for this project {[@kleven2012behavioral]}
 
 ## Brief Overview of German Tax Scheme
 
@@ -62,7 +62,7 @@ Identify potential difficulties
 
 # A Final Note on Reproducility
 
-This paper was written in R Markdown language using RStudio [@kleven2013using]
+This paper was written in R Markdown language using RStudio
 
 # References
 
