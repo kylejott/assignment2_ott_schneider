@@ -1,66 +1,70 @@
 ---
-title: "Assignment 2"
+title: 'Assignment 2, Research Proposal: Insert H'
 author: "Kyle Ott & Cornelius Schneider"
 date: "October 19, 2014"
 output:
-  word_document: default
+  html_document: default
   pdf_document:
     fig_caption: yes
     number_sections: yes
-bibliography:
-- main.bib
+  word_document: default
+bibliography: main.bib
 ---
 
+Text for our cover page
+
+# Table of Contents
+
+Insert the table of contents
+
+# 1. Introduction
+
+## 1.1. Motivation
+
+## 1.2. Relation to Existing Literature
+
+## 1.3. Brief Overview of German Tax Scheme
+
+## 1.4. How Do Notches Differ Than Kinks?
 
 
 
-```{r include=FALSE}
-# Set working directory. Change as needed
-setwd('/Users/Kyle/Dropbox/!Fall_2014/Collab_Data/assignment2_ott_schneider')
+# 2. Research Question
 
-# Load packages and create BibTeX file
-{r, install.packages('ggplot2')}
+State the question
 
+Justify why it is interesting:
+bunching, is the gov aware of this? potential to increase revenue and increase efficiency
 
-PackagesUsed <- c("ggplot2", "repmis")
+# 3. State of the Art
 
-# Load PackagesUsed and create .bib BibTeX file
-# Note must have repmis package installed.
+More detail -- paucity of research
 
-#```{r, install.packages('repmis')}
-#```
-repmis::LoadandCite(PackagesUsed, file = "Packages.bib", install = FALSE)
+Gaps in research? Connection to motivation. What has been done before, new data? Different approaches?
 
-# Load data
-MainData <- read.csv("Data/MainData.csv")
-```
+Methodology for answering questions -- potential methods....
 
-> Here is an abstract filled with giberish. Lorem ipsum dolor sit amet, habeo
-mollis et sit, case quaerendum an eos. Eum aliquip habemus te, an vel lorem
-mandamus dissentiet, omnes ceteros argumentum duo at. Id has graece euismod, in
-cum eius aeque dolores. Nec vocibus imperdiet ad, sit porro augue feugait id,
-wisi quaestio splendide no vim.
+# 4. Methods
 
-# Explanation
+## 4.1. Data
 
-I gathered data from @Pemstein2010 on countries' democracy level. They call their
-democracy measure the Unified Democracy Score (UDS). I also gathered data from
-the @WorldBank2013 on fertilizer consumption.[^units] Figure 1 shows the mean
-UDS scores over time for all of the countries in their sample plotted against
-the natural logarithm of their fertilizer consumption. Also, Foer shows that we can
-train and win at the world memory championships if we follow a simple method @moonwalking.
+## 4.2. Empirical Strategy
 
-# The Plot
+![Figure from Kleven Paper: More Detail here](\Figures\kleven2012notch_page22.png)
 
-The following is a plot. It was created using the R [@CiteR] ggplot2 [@R-ggplot2].
+# 5. Questions and Limitations
 
-```{r, echo=FALSE, warning=FALSE, fig.cap='Mean UDS Scores vs. Fertilizer Consumption'}
-# Run source code to create scatter plot
-source("Analysis/ScatterUDS_Fert.R")
-```
+Identify potential difficulties
 
+# 6. Timeline: Going Forward from Here
 
-[^units]: The data is in kilograms per hectare of arable land.
+## 6.1. Working Steps
 
-## References
+## 6.2. Data Availability
+
+## 6.3. Second Best Approach
+
+# 7. A Final Note on Reproducility
+
+# 8. References
 
