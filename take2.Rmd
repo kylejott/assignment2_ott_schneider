@@ -3,19 +3,14 @@ title: 'Assignment 2, Research Proposal: 99 Problems, But Notches Aint One'
 author: "Kyle Ott and Cornelius Schneider"
 date: "24 October 2014"
 output:
-  word_document: default
   pdf_document:
     fig_caption: yes
     number_sections: yes
     toc: yes
   html_document:
     toc: yes
-bibliography:
-- main.bib
-- packages.bib
+bibliography: main.bib
 ---
-
-
 
 # Introduction
 
@@ -27,10 +22,10 @@ Will be using R for this project
 
 # Research Question
 
-State the question 
+State the question
 
 Justify why it is interesting:
-bunching, is the gov aware of this? potential to increase revenue and increase efficiency
+bunching, is the gov aware of this? potential to increase revenue and increase efficiency @kleven2013using
 
 # State of the Art
 
@@ -41,28 +36,3 @@ Gaps in research? Connection to motivation. What has been done before, new data?
 Methodology for answering questions -- potential methods....
 
 # Methods
-
-## Data
-
-## Empirical Strategy
-
-![Figure from Kleven Paper: More Detail here](Figures/kleven2012notch_page22.png)
-
-# Questions and Limitations
-
-Identify potential difficulties
-
-# Timeline: Going Forward from Here
-
-## Working Steps
-
-## Data Availability
-
-## Second Best Approach
-
-# A Final Note on Reproducility
-
-This paper was written in R Markdown language using RStudio [@citeR]
-
-# References
-
