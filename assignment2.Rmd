@@ -19,7 +19,7 @@ bibliography:
 
 # Introduction
 
-Will be using R for this project {[@kleven2012behavioral]}
+Will be using R for this project @best2014housing
 
 ## Brief Overview of German Tax Scheme
 
