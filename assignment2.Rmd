@@ -1,42 +1,36 @@
 ---
-title: 'Assignment 2, Research Proposal: Insert H'
+title: 'Assignment 2, Research Proposal: Insert Title'
 author: "Kyle Ott & Cornelius Schneider"
 date: "October 19, 2014"
 output:
-  html_document: default
   pdf_document:
-    fig_caption: yes
     number_sections: yes
+    toc: yes
   word_document: default
 bibliography: main.bib
 ---
 
-Text for our cover page
 
-# Table of Contents
+# Introduction
 
-Insert the table of contents
+## Motivation
 
-# 1. Introduction
+## Relation to Existing Literature
 
-## 1.1. Motivation
+## Brief Overview of German Tax Scheme
 
-## 1.2. Relation to Existing Literature
-
-## 1.3. Brief Overview of German Tax Scheme
-
-## 1.4. How Do Notches Differ Than Kinks?
+## How Do Notches Differ Than Kinks?
 
 
 
-# 2. Research Question
+# Research Question
 
 State the question
 
 Justify why it is interesting:
 bunching, is the gov aware of this? potential to increase revenue and increase efficiency
 
-# 3. State of the Art
+# State of the Art
 
 More detail -- paucity of research
 
@@ -44,27 +38,27 @@ Gaps in research? Connection to motivation. What has been done before, new data?
 
 Methodology for answering questions -- potential methods....
 
-# 4. Methods
+# Methods
 
-## 4.1. Data
+## Data
 
-## 4.2. Empirical Strategy
+## Empirical Strategy
 
-![Figure from Kleven Paper: More Detail here](\Figures\kleven2012notch_page22.png)
+![Figure from Kleven Paper: More Detail here](Figures/kleven2012notch_page22.png)
 
-# 5. Questions and Limitations
+# Questions and Limitations
 
 Identify potential difficulties
 
-# 6. Timeline: Going Forward from Here
+# Timeline: Going Forward from Here
 
-## 6.1. Working Steps
+## Working Steps
 
-## 6.2. Data Availability
+## Data Availability
 
-## 6.3. Second Best Approach
+## Second Best Approach
 
-# 7. A Final Note on Reproducility
+# A Final Note on Reproducility
 
-# 8. References
+# References
 
