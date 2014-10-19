@@ -16,9 +16,14 @@ bibliography:
 
 # Introduction
 
-Will be using R for this project @best2014housing
+Insert introduction paragraphs
+
+Justify why it is interesting:
+bunching, is the gov aware of this? potential to increase revenue and increase efficiency
 
 ## Brief Overview of German Tax Scheme
+
+Note figures, include background information
 
 ![made by authors More Detail here](Figures/pre2009taxscheme.png)
 
@@ -28,24 +33,27 @@ Will be using R for this project @best2014housing
 
 ## How Do Notches Differ Than Kinks?
 
+Cite Kleven and Slemrod
+
 # Research Question
 
 State the question 
 
-Justify why it is interesting:
-bunching, is the gov aware of this? potential to increase revenue and increase efficiency
-
 # State of the Art
 
-More detail -- paucity of research
+More detail, paucity of research
 
 Gaps in research? Connection to motivation. What has been done before, new data? Different approaches?
 
-Methodology for answering questions -- potential methods....
+Methodology for answering questions, potential methods.
 
 # Methods
 
+Blah, blah, blah
+
 ## Data
+
+Two examples
 
 ## Empirical Strategy
 
@@ -57,9 +65,15 @@ Identify potential difficulties
 
 # Timeline: Going Forward from Here
 
+Only in bullet point form now
+
 ## Working Steps
 
+Only in bullet point format now
+
 ## Data Availability
+
+Rearrange this last part
 
 ## Second Best Approach
 
