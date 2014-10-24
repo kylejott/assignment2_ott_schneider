@@ -4,11 +4,11 @@ title: '**Do Notch Resuscitate**: The Inheritance Tax in Germany, Pre- and Post-
 author: "Kyle Ott and Cornelius Schneider"
 date: "24 October 2014"
 output:
-  word_document: default
   pdf_document:
     fig_caption: yes
     number_sections: yes
     toc: yes
+  word_document: default
 bibliography:
 - main1.bib
 - packages1.bib
@@ -61,25 +61,24 @@ In order to examine the self-reporting at discontinuous jumps in tax liability (
 To examine the expected bunching, a cross-sectional comparison is applied. The concrete empirical strategy is laid down by Kleven and Waseem (2013): The analysis of bunching will be based on a comparison between the empirical distribution and an estimated counterfactual distribution. In their paper they estimated the counterfactual for each notch separately by fitting a polynomial to the empirical distribution, excluding data around the notch. In Figure 4 the empirical distribution is plotted against the counterfactual (estimated) distribution.
 
 
-The analysis will contain an examination of bunching for every year 2007 to 2011. Moreover, the analysis will be run for each tax class (I, II and III) separately. The reform condensed the respective tax brackets in 2009 for tax class II and III from 7 brackets to only two. In 2010, tax class II was changed back again to 7 brackets. Against this background the question about how the bunching behavior changed when the tax brackets were condensed after the tax reforms will be assessed.
+The analysis will contain an examination of bunching for every year from 2007 to 2011. Moreover, the analysis will be run for each tax class (I, II and III) separately. The reform condensed the respective tax brackets in 2009 for tax class II and III from 7 brackets to only two. In 2010, tax class II was changed back again to 7 brackets. Against this background the question about how the bunching behavior changed when the tax brackets were condensed after the tax reforms will be assessed.
 
 The final goal will be to derive an elasticity of (reported) bequest dependent on the tax burden.
 
 ## Second Best Research Approach
 
-Given potential data limitations, we have built in a second best approach for our analysis of inheritance taxation. First, it is still promising that we would be able to at least get a first look at the data mentioned already (current timeline: mid-November). 
-
-Built into attempting to answer our research question must be an analysis of the aforementioned notches. For this, we plan to create our own dataset from scratch, using the German tax scheme, for given incomes, years, individuals, and tax classes.  Thus, we are able to derive tax burden functions, which demonstrate the tax burden dependent on the bequest. Here, our focus will be to represent this in a visual (hopefully, interactive) graphic to point out the potential need for further analysis. 
+Given potential data limitations, we have built in a second best approach for our analysis of inheritance taxation. First, it is still promising that we would be able to at least get a first look at the data mentioned already (current timeline: mid-November). Built into attempting to answer our research question must be an analysis of the aforementioned notches. For this, we plan to create our own dataset from scratch, using the German tax scheme, for given incomes, years, individuals, and tax classes.  Thus, we are able to derive tax burden functions, which demonstrate the tax burden dependent on the bequest. Here, our focus will be to represent this in a visual (hopefully, interactive) graphic to point out the potential need for further analysis. 
 
 # Limitations
 
-Our biggest limitation in our approach, especially regarding our second-best approach, is that we need to be completely aware when which law and/or reform was implemented and how the changes went into place. Thus, it is important to precisely identify the point and time changes occurred. Moreover, we need to understand the nuances of the reforms (especially certain special cases or exemptions) in order to create an accurate dataset that could show potential notches. Furthermore, German *Länder* use different monitoring procedure. Especially North Rhine-Westphalia had problems monitoring in the beginning. We need to be aware of potential filing exemptions and non-compliance. Finally, given that the threshold for taxing inheritances is quite high, those that pay inheritance tax represent a small subsample of the population. Nonetheless, we believe that much can be discerned from an exploration into notches and attempting to understand tax-payer behavioral changes (if any).
+Our biggest limitation in our approach, especially regarding our second-best approach, is that we need to be completely aware when which law and/or reform was implemented and how the changes went into place. Thus, it is important to precisely identify the point and time changes occurred. Moreover, we need to understand the nuances of the reforms (especially certain special cases or exemptions) in order to create an accurate dataset that could show potential notches. Furthermore, German *Länder* use different monitoring procedures. Especially North Rhine-Westphalia had problems monitoring in the beginning. We need to be aware of potential filing exemptions and non-compliance. Finally, given that the threshold for taxing inheritances is quite high, those that pay inheritance tax represent a small subsample of the population. Nonetheless, we believe that much can be discerned from an exploration into notches and attempting to understand tax-payer behavioral changes (if any). \
 
-\pagebreak
 
-# Reference of Software
+***
 
 This project used @CiteRStudio to create this research proposal.
+
+\pagebreak
 
 # References
 
